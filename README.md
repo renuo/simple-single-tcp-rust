@@ -6,7 +6,8 @@ Run it with
 ./simple-single-tcp
 ```
 
-Cross-compile for Heroku with:
+If you want to deploy this to Heroku, you can use this buildpack: https://github.com/renuo/simple-single-tcp-rust
+But you've got to cross-compile first (x86_64):
 
 ```sh
 CARGO_TARGET_X86_64_UNKNOWN_LINUX_GNU_LINKER=x86_64-unknown-linux-gnu-gcc \
