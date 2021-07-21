@@ -6,7 +6,7 @@ Run it with
 ./simple-single-tcp
 ```
 
-If you want to deploy this to Heroku, you can use this buildpack: https://github.com/renuo/simple-single-tcp-rust
+If you want to deploy this to Heroku, you can use this buildpack: https://github.com/renuo/simple-single-tcp-rust.
 But you've got to cross-compile first (x86_64):
 
 ```sh
